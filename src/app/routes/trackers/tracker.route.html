@@ -1,5 +1,9 @@
-<ng-container *ngIf="tracking.tracker$ | async as tracker">
-  <section fxLayout="column" fxLayoutAlign="start stretch">
-    
-  </section>
-</ng-container>
+<section fxLayout="row" fxLayoutAlign="start stretch">
+  <ng-container *ngIf="tracking.tracker$ | async as tracker">
+    <tracker
+      fxLayout="row"
+      fxLayoutAlign="start stretch"
+      [tracker]="tracker"
+    ></tracker>
+  </ng-container>
+</section>

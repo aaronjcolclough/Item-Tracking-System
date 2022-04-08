@@ -9,6 +9,6 @@ import { Router } from '@angular/router';
 export class AppComponent implements OnInit {
   constructor(private router: Router) {}
   ngOnInit() {
-    this.router.navigate(['/tracker', 1]);
+    this.router.navigate([1]);
   }
 }

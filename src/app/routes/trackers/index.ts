@@ -5,8 +5,8 @@ import { TrackerRoute } from './tracker.route';
 export const TrackerComponents = [TrackersRoute, TrackerRoute];
 
 export const TrackerRoutes: Routes = [
-  { path: 'trackers', component: TrackersRoute },
-  { path: 'tracker/:id', component: TrackerRoute },
+  { path: '', component: TrackersRoute },
+  { path: ':id', component: TrackerRoute },
   { path: '', redirectTo: 'trackers', pathMatch: 'prefix' },
   { path: '**', redirectTo: 'trackers', pathMatch: 'prefix' },
 ];
