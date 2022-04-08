@@ -1,4 +1,4 @@
-namespace Core.Core.Extensions;
+namespace Dev.Core.Extensions;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;

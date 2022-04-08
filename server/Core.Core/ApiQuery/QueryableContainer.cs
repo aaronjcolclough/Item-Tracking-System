@@ -1,6 +1,6 @@
-namespace Core.Core.ApiQuery;
+namespace Dev.Dev.ApiQuery;
 
-using Core.Core.Extensions;
+using Dev.Extensions;
 
 using Microsoft.EntityFrameworkCore;
 

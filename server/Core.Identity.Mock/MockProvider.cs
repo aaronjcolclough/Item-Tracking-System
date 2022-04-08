@@ -1,10 +1,10 @@
 [assembly:System.Runtime.Versioning.SupportedOSPlatform("windows")]
-namespace Core.Identity.Mock;
+namespace Dev.Identity.Mock;
 
-using Core.Identity;
+using Dev.Identity;
 
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetDev.Authentication;
+using Microsoft.AspNetDev.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using System.Security.Claims;

@@ -1,4 +1,4 @@
-namespace Core.Data.Models;
+namespace Dev.Data.Models;
 
 public class Sync
 {

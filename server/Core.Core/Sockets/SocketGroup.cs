@@ -1,4 +1,4 @@
-namespace Core.Core.Sockets;
+namespace Dev.Core.Sockets;
 
 public class SocketGroup
 {

@@ -1,10 +1,10 @@
-namespace Core.Data.Extensions;
+namespace Dev.Data.Extensions;
 
-using Core.Core;
-using Core.Core.ApiQuery;
-using Core.Core.Extensions;
-using Core.Data.Entities;
-using Core.Identity;
+using Dev.Core;
+using Dev.Dev.ApiQuery;
+using Dev.Core.Extensions;
+using Dev.Data.Entities;
+using Dev.Identity;
 
 using Microsoft.EntityFrameworkCore;
 

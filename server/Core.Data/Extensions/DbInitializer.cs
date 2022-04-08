@@ -1,6 +1,6 @@
-namespace Core.Data.Extensions;
+namespace Dev.Data.Extensions;
 
-using Core.Data.Extensions.Seed;
+using Dev.Data.Extensions.Seed;
 
 using Microsoft.EntityFrameworkCore;
 

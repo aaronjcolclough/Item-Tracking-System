@@ -1,4 +1,4 @@
-namespace Core.Web.Hubs;
+namespace Dev.Web.Hubs;
 
 public static class HubExtensions
 {

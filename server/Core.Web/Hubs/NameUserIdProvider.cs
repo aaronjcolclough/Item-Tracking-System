@@ -1,4 +1,4 @@
-namespace Core.Web.Hubs;
+namespace Dev.Web.Hubs;
 
 using Microsoft.AspNetCore.SignalR;
 

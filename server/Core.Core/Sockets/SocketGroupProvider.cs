@@ -1,4 +1,4 @@
-namespace Core.Core.Sockets;
+namespace Dev.Core.Sockets;
 
 using Microsoft.AspNetCore.SignalR;
 

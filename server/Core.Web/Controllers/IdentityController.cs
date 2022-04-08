@@ -1,10 +1,10 @@
-namespace Core.Web.Controllers;
+namespace Dev.Web.Controllers;
 
-using Core.Core.ApiQuery;
-using Core.Data;
-using Core.Data.Entities;
-using Core.Data.Extensions;
-using Core.Identity;
+using Dev.Dev.ApiQuery;
+using Dev.Data;
+using Dev.Data.Entities;
+using Dev.Data.Extensions;
+using Dev.Identity;
 
 using Microsoft.AspNetCore.Mvc;
 

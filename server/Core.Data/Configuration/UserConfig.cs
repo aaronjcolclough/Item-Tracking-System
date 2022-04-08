@@ -1,6 +1,6 @@
-namespace Core.Data.Configuration;
+namespace Dev.Data.Configuration;
 
-using Core.Data.Entities;
+using Dev.Data.Entities;
 
 using Microsoft.EntityFrameworkCore;
 

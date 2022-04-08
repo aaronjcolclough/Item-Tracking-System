@@ -1,7 +1,7 @@
-namespace Core.Identity;
+namespace Dev.Identity;
 
-using Core.Core.Extensions;
-using Core.Identity.Extensions;
+using Dev.Core.Extensions;
+using Dev.Identity.Extensions;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;

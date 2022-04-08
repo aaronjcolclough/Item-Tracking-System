@@ -1,9 +1,9 @@
-namespace Core.Core.Extensions;
+namespace Dev.Core.Extensions;
 
-using Core.Core.Logging;
+using Dev.Core.Logging;
 
 using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetDev.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Newtonsoft.Json;

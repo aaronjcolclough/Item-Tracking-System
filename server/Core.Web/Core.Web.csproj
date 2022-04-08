@@ -9,7 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.3" />
     <PackageReference Include="Microsoft.AspNetCore.OData" Version="8.0.8" />
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.3">
+    <PackageReference Include="Microsoft.EntityFrameworkDev.Design" Version="6.0.3">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
@@ -17,11 +17,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Auth\Core.Auth.csproj" />
-    <ProjectReference Include="..\Core.Core\Core.Core.csproj" />
-    <ProjectReference Include="..\Core.Data\Core.Data.csproj" />
-    <ProjectReference Include="..\Core.Identity\Core.Identity.csproj" />
-    <ProjectReference Include="..\Core.Identity.Mock\Core.Identity.Mock.csproj" />
+    <ProjectReference Include="..\Dev.Auth\Dev.Auth.csproj" />
+    <ProjectReference Include="..\Dev.Core\Dev.Core.csproj" />
+    <ProjectReference Include="..\Dev.Data\Dev.Data.csproj" />
+    <ProjectReference Include="..\Dev.Identity\Dev.Identity.csproj" />
+    <ProjectReference Include="..\Dev.Identity.Mock\Dev.Identity.Mock.csproj" />
   </ItemGroup>
 
 

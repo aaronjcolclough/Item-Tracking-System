@@ -1,4 +1,4 @@
-namespace Core.Core.Markdown.Extensions;
+namespace Dev.Core.Markdown.Extensions;
 
 public static class MarkdownExtensions
 {

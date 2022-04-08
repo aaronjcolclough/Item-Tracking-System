@@ -1,4 +1,4 @@
-namespace Core.Core.Upload;
+namespace Dev.Core.Upload;
 
 public class UploadConfig
 {

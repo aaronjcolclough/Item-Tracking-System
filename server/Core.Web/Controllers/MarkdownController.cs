@@ -1,7 +1,7 @@
-namespace Core.Web.Controllers;
+namespace Dev.Web.Controllers;
 
-using Core.Core.Markdown;
-using Core.Core.Markdown.Extensions;
+using Dev.Core.Markdown;
+using Dev.Core.Markdown.Extensions;
 
 using Microsoft.AspNetCore.Mvc;
 

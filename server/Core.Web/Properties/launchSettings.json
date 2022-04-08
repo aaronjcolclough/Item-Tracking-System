@@ -16,7 +16,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Core.Web": {
+    "Dev.Web": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

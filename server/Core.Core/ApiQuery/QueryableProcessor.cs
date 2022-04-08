@@ -1,4 +1,4 @@
-namespace Core.Core.ApiQuery;
+namespace Dev.Dev.ApiQuery;
 
 using System.Linq.Expressions;
 using System.Reflection;

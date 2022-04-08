@@ -1,8 +1,8 @@
 [assembly:System.Runtime.Versioning.SupportedOSPlatform("windows")]
-namespace Core.Data;
+namespace Dev.Data;
 
-using Core.Data.Configuration;
-using Core.Data.Entities;
+using Dev.Data.Configuration;
+using Dev.Data.Entities;
 
 using Microsoft.EntityFrameworkCore;
 

@@ -1,4 +1,4 @@
-namespace Core.Data.Entities;
+namespace Dev.Data.Entities;
 
 public class Upload
 {

@@ -1,4 +1,4 @@
-namespace Core.Core;
+namespace Dev.Core;
 
 public enum ExceptionType
 {

@@ -1,4 +1,4 @@
-namespace Core.Identity;
+namespace Dev.Identity;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;

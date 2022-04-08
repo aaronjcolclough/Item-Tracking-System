@@ -1,4 +1,4 @@
-namespace Core.Web;
+namespace Dev.Web;
 
 using Microsoft.AspNetCore;
 

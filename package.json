@@ -7,11 +7,11 @@
     "restore": "dotnet restore ./server -s ./server/nuget-packages",
     "seed": "dotnet run --project ./server/dbseeder -- \"Server=.\\DevSql;Database=tracker-app-dev;Trusted_Connection=True;\"",
     "start:docs": "ng serve docs --configuration development",
-    "start:server": "dotnet run --project ./server/tracker-app.Web",
+    "start:server": "dotnet run --project ./server/Dev.Web",
     "start:tracker-app": "ng serve tracker-app --configuration development",
-    "update-db": "dotnet ef database update -s ./server/tracker-app.Web",
+    "update-db": "dotnet ef database update -s ./server/Dev.Web",
     "watch": "ng build core --watch --configuration development",
-    "watch:server": "dotnet watch run --project ./server/tracker-app.Web"
+    "watch:server": "dotnet watch run --project ./server/Dev.Web"
   },
   "dependencies": {
     "@angular/animations": "^13.3.0",

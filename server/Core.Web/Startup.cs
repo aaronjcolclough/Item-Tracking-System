@@ -1,16 +1,16 @@
 [assembly:System.Runtime.Versioning.SupportedOSPlatform("windows")]
-namespace Core.Web;
+namespace Dev.Web;
 
-using Core.Core.Extensions;
-using Core.Core.Logging;
-using Core.Core.Sockets;
-using Core.Core.Upload;
-using Core.Data;
-using Core.Identity;
-using Core.Identity.Mock;
-using Core.Web.Hubs;
+using Dev.Core.Extensions;
+using Dev.Core.Logging;
+using Dev.Core.Sockets;
+using Dev.Core.Upload;
+using Dev.Data;
+using Dev.Identity;
+using Dev.Identity.Mock;
+using Dev.Web.Hubs;
 
-using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetDev.Authentication.Cookies;
 using Microsoft.AspNetCore.OData;
 using Microsoft.AspNetCore.Server.IISIntegration;
 using Microsoft.AspNetCore.SignalR;

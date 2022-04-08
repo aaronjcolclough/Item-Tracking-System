@@ -1,4 +1,4 @@
-namespace Core.Data.Entities;
+namespace Dev.Data.Entities;
 
 public class User
 {
@@ -9,7 +9,7 @@ public class User
     public DateTime DateJoined { get; set; }
 
     /*
-        Properties mapped from Core.Identity.AdUser.cs
+        Properties mapped from Dev.Identity.AdUser.cs
     */
     public Guid Guid { get; set; }
     public string LastName { get; set; }

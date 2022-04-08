@@ -1,4 +1,4 @@
-namespace Core.Core.Markdown;
+namespace Dev.Core.Markdown;
 
 public class Document
 {

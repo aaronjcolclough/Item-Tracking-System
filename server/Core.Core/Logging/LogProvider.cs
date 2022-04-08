@@ -1,6 +1,6 @@
-namespace Core.Core.Logging;
+namespace Dev.Core.Logging;
 
-using Core.Core.Extensions;
+using Dev.Core.Extensions;
 
 using Microsoft.AspNetCore.Http;
 using System.Text;

@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Auth", "Core.Auth\Core.Auth.csproj", "{92F03C97-7096-482A-A1D5-8F492DB26195}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Auth", "Dev.Auth\Dev.Auth.csproj", "{92F03C97-7096-482A-A1D5-8F492DB26195}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Core", "Core.Core\Core.Core.csproj", "{B24213C5-E6DA-4E3B-8C18-C6E3DB5BB268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Core", "Dev.Core\Dev.Core.csproj", "{B24213C5-E6DA-4E3B-8C18-C6E3DB5BB268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Data", "Core.Data\Core.Data.csproj", "{A792660F-7280-48E2-AC07-385F9D485C11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Data", "Dev.Data\Dev.Data.csproj", "{A792660F-7280-48E2-AC07-385F9D485C11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Identity", "Core.Identity\Core.Identity.csproj", "{27F932CF-BC67-4C74-941A-779A6E6B6DDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Identity", "Dev.Identity\Dev.Identity.csproj", "{27F932CF-BC67-4C74-941A-779A6E6B6DDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Identity.Mock", "Core.Identity.Mock\Core.Identity.Mock.csproj", "{0A67C46E-1632-49EE-A970-61CC4284C423}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Identity.Mock", "Dev.Identity.Mock\Dev.Identity.Mock.csproj", "{0A67C46E-1632-49EE-A970-61CC4284C423}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Web", "Core.Web\Core.Web.csproj", "{43F3774B-CF32-42C0-9264-8AC7977DB1EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dev.Web", "Dev.Web\Dev.Web.csproj", "{43F3774B-CF32-42C0-9264-8AC7977DB1EC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbseeder", "dbseeder\dbseeder.csproj", "{00799651-6DDD-4C93-BD56-D16CDA49BC02}"
 EndProject

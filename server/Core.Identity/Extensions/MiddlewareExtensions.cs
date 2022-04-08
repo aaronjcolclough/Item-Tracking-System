@@ -1,6 +1,6 @@
 namespace Microsoft.AspNetCore.Builder;
 
-using Core.Identity;
+using Dev.Identity;
 
 public static class MiddlewareExtensions
 {

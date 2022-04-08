@@ -1,7 +1,7 @@
-namespace Core.Data.Extensions.Seed;
+namespace Dev.Data.Extensions.Seed;
 
-using Core.Data.Entities;
-using Core.Identity.Mock;
+using Dev.Data.Entities;
+using Dev.Identity.Mock;
 
 using Microsoft.EntityFrameworkCore;
 

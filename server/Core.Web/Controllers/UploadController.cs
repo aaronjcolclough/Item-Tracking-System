@@ -1,9 +1,9 @@
-namespace Core.Web.Controllers;
+namespace Dev.Web.Controllers;
 
-using Core.Core.Upload;
-using Core.Data;
-using Core.Data.Entities;
-using Core.Data.Extensions;
+using Dev.Core.Upload;
+using Dev.Data;
+using Dev.Data.Entities;
+using Dev.Data.Extensions;
 
 using Microsoft.AspNetCore.Mvc;
 

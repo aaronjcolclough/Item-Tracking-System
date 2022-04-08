@@ -1,4 +1,4 @@
-namespace Core.Identity.Extensions;
+namespace Dev.Identity.Extensions;
 
 using System.DirectoryServices.AccountManagement;
 

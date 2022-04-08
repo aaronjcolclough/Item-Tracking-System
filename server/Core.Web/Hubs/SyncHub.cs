@@ -1,6 +1,6 @@
-namespace Core.Web.Hubs;
+namespace Dev.Web.Hubs;
 
-using Core.Data.Models;
+using Dev.Data.Models;
 
 using Microsoft.AspNetCore.SignalR;
 

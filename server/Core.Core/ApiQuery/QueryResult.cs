@@ -1,4 +1,4 @@
-namespace Core.Core.ApiQuery;
+namespace Dev.Dev.ApiQuery;
 
 public class QueryResult<T>
 {

@@ -1,4 +1,4 @@
-namespace Core.Identity.Mock;
+namespace Dev.Identity.Mock;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;

@@ -1,6 +1,6 @@
 namespace Microsoft.AspNetCore.Builder;
 
-using Core.Identity.Mock;
+using Dev.Identity.Mock;
 
 public static class MiddlewareExtensions
 {

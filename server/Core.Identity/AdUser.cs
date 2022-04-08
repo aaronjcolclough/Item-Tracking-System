@@ -1,7 +1,7 @@
 [assembly:System.Runtime.Versioning.SupportedOSPlatform("windows")]
-namespace Core.Identity;
+namespace Dev.Identity;
 
-using Core.Core.Extensions;
+using Dev.Core.Extensions;
 
 using System.DirectoryServices.AccountManagement;
 using System.Security.Principal;

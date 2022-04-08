@@ -11,9 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Core.Core\Core.Core.csproj" />
-    <ProjectReference Include="..\Core.Data\Core.Data.csproj" />
-    <ProjectReference Include="..\Core.Identity\Core.Identity.csproj" />
+    <ProjectReference Include="..\Dev.Core\Dev.Core.csproj" />
+    <ProjectReference Include="..\Dev.Data\Dev.Data.csproj" />
+    <ProjectReference Include="..\Dev.Identity\Dev.Identity.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,9 +1,9 @@
 [assembly:System.Runtime.Versioning.SupportedOSPlatform("windows")]
-namespace Core.Auth;
+namespace Dev.Auth;
 
-using Core.Core;
-using Core.Data;
-using Core.Identity;
+using Dev.Core;
+using Dev.Data;
+using Dev.Identity;
 
 public static class AuthorizationExtensions
 {

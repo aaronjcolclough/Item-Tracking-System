@@ -1,8 +1,8 @@
-namespace Core.Data.Extensions;
+namespace Dev.Data.Extensions;
 
-using Core.Core;
-using Core.Core.Extensions;
-using Core.Data.Entities;
+using Dev.Core;
+using Dev.Core.Extensions;
+using Dev.Data.Entities;
 
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
