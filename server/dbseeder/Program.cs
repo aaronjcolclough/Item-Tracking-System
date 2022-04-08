@@ -1,9 +1,9 @@
 [assembly:System.Runtime.Versioning.SupportedOSPlatform("windows")]
 namespace dbseeder;
 
-using Topics.Core.Extensions;
-using Topics.Data;
-using Topics.Data.Extensions;
+using Core.Core.Extensions;
+using Core.Data;
+using Core.Data.Extensions;
 
 using Microsoft.EntityFrameworkCore;
 

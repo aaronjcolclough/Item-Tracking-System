@@ -1,32 +1,8 @@
 <ng-template #loading>
-  <mat-progress-bar mode="indeterminate"
-                    color="accent"></mat-progress-bar>
+  <mat-progress-bar mode="indeterminate" color="accent"></mat-progress-bar>
 </ng-template>
-<section *ngIf="uploadApi.defaultTopicImage$ | async as topicImg else loading"
-         fxLayout="column"
-         fxLayoutAlign="start center"
-         class="p8">
-  <img class="m4"
-       [src]="topicImg">
-  <p class="m4 mat-body-strong">{{topicImg}}</p>
-</section>
-<section *ngIf="uploadApi.defaultUserImage$ | async as userImg else loading"
-         fxLayout="column"
-         fxLayoutAlign="start center"
-         class="p8">
-  <img class="m4"
-       [src]="userImg">
+<section *ngIf="uploadApi.defaultUserImage$ | async as userImg else loading" fxLayout="column"
+  fxLayoutAlign="start center" class="p8">
+  <img class="m4" [src]="userImg">
   <p class="m4 mat-body-strong">{{userImg}}</p>
-</section>
-<section *ngIf="commentApi.comments$ | async as comments else loading"
-         fxLayout="row | wrap"
-         fxLayoutAlign="start start"
-         class="p8">
-  <section *ngFor="let comment of comments"
-           class="m4 p4 rounded card-outline-accent glow-accent background-card"
-           fxLayout="column"
-           fxLayoutAlign="center center"
-           [style.width.px]="360">
-    <span>{{comment.text}}</span>
-  </section>
 </section>

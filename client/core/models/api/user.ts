@@ -1,9 +1,4 @@
-import { Comment } from './comment';
-import { Post } from './post';
-import { Topic } from './topic';
-import { TopicUser } from './topic-user';
 import { UserImage } from './upload';
-import { Vote } from './vote';
 
 export interface User {
   id: number;
@@ -28,10 +23,4 @@ export interface User {
   socketName: string;
 
   image?: UserImage;
-
-  comments?: Comment[];
-  posts?: Post[];
-  topics?: Topic[];
-  memberships?: TopicUser[];
-  votes?: Vote[];
 }
