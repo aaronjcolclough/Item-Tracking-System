@@ -148,7 +148,7 @@
         }
       }
     },
-    "topics": {
+    "tracker-app": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -189,18 +189,18 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/topics",
-            "index": "client/topics/src/index.html",
-            "main": "client/topics/src/main.ts",
-            "polyfills": "client/topics/src/polyfills.ts",
-            "tsConfig": "client/topics/tsconfig.app.json",
+            "outputPath": "dist/tracker-app",
+            "index": "client/tracker-app/src/index.html",
+            "main": "client/tracker-app/src/main.ts",
+            "polyfills": "client/tracker-app/src/polyfills.ts",
+            "tsConfig": "client/tracker-app/tsconfig.app.json",
             "assets": [
-              "client/topics/src/favicon.ico",
-              "client/topics/src/assets",
+              "client/tracker-app/src/favicon.ico",
+              "client/tracker-app/src/assets",
               {
                 "glob": "**/*",
                 "input": "./assets",
-                "output": "client/topics/src/assets"
+                "output": "client/tracker-app/src/assets"
               }
             ],
             "styles": [
@@ -226,8 +226,8 @@
               ],
               "fileReplacements": [
                 {
-                  "replace": "client/topics/src/environments/environment.ts",
-                  "with": "client/topics/src/environments/environment.prod.ts"
+                  "replace": "client/tracker-app/src/environments/environment.ts",
+                  "with": "client/tracker-app/src/environments/environment.prod.ts"
                 }
               ],
               "outputHashing": "all"
@@ -246,15 +246,15 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "topics:build",
+            "browserTarget": "tracker-app:build",
             "port": 3000
           },
           "configurations": {
             "production": {
-              "browserTarget": "topics:build:production"
+              "browserTarget": "tracker-app:build:production"
             },
             "development": {
-              "browserTarget": "topics:build:development"
+              "browserTarget": "tracker-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -262,7 +262,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "topics:build"
+            "browserTarget": "tracker-app:build"
           }
         }
       }

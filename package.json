@@ -1,17 +1,17 @@
 {
-  "name": "topics",
+  "name": "tracker-app",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "build": "ng build core --configuration development",
     "restore": "dotnet restore ./server -s ./server/nuget-packages",
-    "seed": "dotnet run --project ./server/dbseeder -- \"Server=.\\DevSql;Database=topics-dev;Trusted_Connection=True;\"",
+    "seed": "dotnet run --project ./server/dbseeder -- \"Server=.\\DevSql;Database=tracker-app-dev;Trusted_Connection=True;\"",
     "start:docs": "ng serve docs --configuration development",
-    "start:server": "dotnet run --project ./server/Topics.Web",
-    "start:topics": "ng serve topics --configuration development",
-    "update-db": "dotnet ef database update -s ./server/Topics.Web",
+    "start:server": "dotnet run --project ./server/tracker-app.Web",
+    "start:tracker-app": "ng serve tracker-app --configuration development",
+    "update-db": "dotnet ef database update -s ./server/tracker-app.Web",
     "watch": "ng build core --watch --configuration development",
-    "watch:server": "dotnet watch run --project ./server/Topics.Web"
+    "watch:server": "dotnet watch run --project ./server/tracker-app.Web"
   },
   "dependencies": {
     "@angular/animations": "^13.3.0",
