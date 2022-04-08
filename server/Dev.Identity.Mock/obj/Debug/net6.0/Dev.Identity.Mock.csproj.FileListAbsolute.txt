@@ -1,0 +1,17 @@
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\bin\Debug\net6.0\Dev.Identity.Mock.deps.json
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\bin\Debug\net6.0\Dev.Identity.Mock.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\bin\Debug\net6.0\Dev.Identity.Mock.pdb
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\bin\Debug\net6.0\Dev.Core.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\bin\Debug\net6.0\Dev.Identity.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\bin\Debug\net6.0\Dev.Core.pdb
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\bin\Debug\net6.0\Dev.Identity.pdb
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.csproj.AssemblyReference.cache
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.AssemblyInfoInputs.cache
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.AssemblyInfo.cs
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.csproj.CopyComplete
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\refint\Dev.Identity.Mock.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\Dev.Identity.Mock.pdb
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity.Mock\obj\Debug\net6.0\ref\Dev.Identity.Mock.dll

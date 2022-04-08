@@ -34,7 +34,7 @@ echo Updating Dev.Web dependencies...
 cd ..\Dev.Web
 call dotnet add package Microsoft.AspNetCore.Mvc.NewtonsoftJson
 call dotnet add package Microsoft.AspNetCore.OData
-call dotnet add package Microsoft.EntityFrameworkDev.Design
+call dotnet add package Microsoft.EntityFrameworkCore.Design
 
 echo Caching NuGet dependencies...
 cd ..\

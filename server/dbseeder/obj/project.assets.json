@@ -66,8 +66,8 @@
       "Microsoft.EntityFrameworkCore/6.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkDev.Abstractions": "6.0.3",
-          "Microsoft.EntityFrameworkDev.Analyzers": "6.0.3",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.3",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.3",
           "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
@@ -81,16 +81,16 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkDev.Abstractions/6.0.3": {
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/Microsoft.EntityFrameworkDev.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         },
         "runtime": {
-          "lib/net6.0/Microsoft.EntityFrameworkDev.Abstractions.dll": {}
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkDev.Analyzers/6.0.3": {
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -712,7 +712,7 @@
           "bin/placeholder/Dev.Core.dll": {}
         },
         "frameworkReferences": [
-          "Microsoft.AspNetDev.App"
+          "Microsoft.AspNetCore.App"
         ]
       },
       "Dev.Data/1.0.0": {
@@ -749,7 +749,7 @@
           "bin/placeholder/Dev.Identity.dll": {}
         },
         "frameworkReferences": [
-          "Microsoft.AspNetDev.App"
+          "Microsoft.AspNetCore.App"
         ]
       },
       "Dev.Identity.Mock/1.0.0": {
@@ -765,7 +765,7 @@
           "bin/placeholder/Dev.Identity.Mock.dll": {}
         },
         "frameworkReferences": [
-          "Microsoft.AspNetDev.App"
+          "Microsoft.AspNetCore.App"
         ]
       }
     }
@@ -940,7 +940,7 @@
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkDev.Abstractions/6.0.3": {
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.3": {
       "sha512": "7c6wJtTFj7FDe20IVPDKeCzxWIMu+XDpYi7aYuUo6knu4vDeB3N3F0pjAZgXJ96GwTZYBrjOEwnbpYmfapEz/w==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.abstractions/6.0.3",
@@ -948,13 +948,13 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "lib/net6.0/Microsoft.EntityFrameworkDev.Abstractions.dll",
-        "lib/net6.0/Microsoft.EntityFrameworkDev.Abstractions.xml",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
         "microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkDev.Analyzers/6.0.3": {
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.3": {
       "sha512": "Ld9HyVABYor3Tq43/sG2JERL94UnDHJPg5PwpkCW4CWsf/CbxHetdecv+bCXA/Hg4q+44sov0GVl4Ywjk4PnyA==",
       "type": "package",
       "path": "microsoft.entityframeworkcore.analyzers/6.0.3",
@@ -962,7 +962,7 @@
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
-        "analyzers/dotnet/cs/Microsoft.EntityFrameworkDev.Analyzers.dll",
+        "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
         "microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
@@ -2151,7 +2151,7 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.NETDev.App": {
+          "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },

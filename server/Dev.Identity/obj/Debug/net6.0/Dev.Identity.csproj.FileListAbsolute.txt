@@ -1,0 +1,15 @@
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\bin\Debug\net6.0\Dev.Identity.deps.json
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\bin\Debug\net6.0\Dev.Identity.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\bin\Debug\net6.0\Dev.Identity.pdb
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\bin\Debug\net6.0\Dev.Core.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\bin\Debug\net6.0\Dev.Core.pdb
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.csproj.AssemblyReference.cache
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.AssemblyInfoInputs.cache
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.AssemblyInfo.cs
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.csproj.CoreCompileInputs.cache
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.csproj.CopyComplete
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\refint\Dev.Identity.dll
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\Dev.Identity.pdb
+C:\Users\Aaron\.dev\Item-Tracking-System\server\Dev.Identity\obj\Debug\net6.0\ref\Dev.Identity.dll
