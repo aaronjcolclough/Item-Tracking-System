@@ -182,8 +182,8 @@
           "skipTests": true
         }
       },
-      "root": "client/topics",
-      "sourceRoot": "client/topics/src",
+      "root": "client/tracker-app",
+      "sourceRoot": "client/tracker-app/src",
       "prefix": "app",
       "architect": {
         "build": {
