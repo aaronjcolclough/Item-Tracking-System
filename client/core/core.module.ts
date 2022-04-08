@@ -1,16 +1,16 @@
 import {
-    ModuleWithProviders,
-    NgModule
+  ModuleWithProviders,
+  NgModule
 } from '@angular/core';
 
 import {
-    FormsModule,
-    ReactiveFormsModule
+  FormsModule,
+  ReactiveFormsModule
 } from '@angular/forms';
 
 import {
-    HttpClientModule,
-    HTTP_INTERCEPTORS
+  HttpClientModule,
+  HTTP_INTERCEPTORS
 } from '@angular/common/http';
 
 import { CommonModule } from '@angular/common';
@@ -26,40 +26,40 @@ import { Pipes } from './pipes';
 import { AuthInterceptor } from './services';
 
 @NgModule({
-    declarations: [
-        ...Components,
-        ...Dialogs,
-        ...Directives,
-        ...Forms,
-        ...Pipes
-    ],
-    imports: [
-        CommonModule,
-        FormsModule,
-        ReactiveFormsModule,
-        HttpClientModule,
-        RouterModule,
-        MaterialModule
-    ],
-    exports: [
-        ...Components,
-        ...Dialogs,
-        ...Directives,
-        ...Forms,
-        ...Pipes,
-        MaterialModule
-    ],
-    providers: [
-        { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
-    ]
+  declarations: [
+    ...Components,
+    ...Dialogs,
+    ...Directives,
+    ...Forms,
+    ...Pipes
+  ],
+  imports: [
+    CommonModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    RouterModule,
+    MaterialModule
+  ],
+  exports: [
+    ...Components,
+    ...Dialogs,
+    ...Directives,
+    ...Forms,
+    ...Pipes,
+    MaterialModule
+  ],
+  providers: [
+    { provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }
+  ]
 })
 export class CoreModule {
-    static forRoot(config: ServerConfig): ModuleWithProviders<CoreModule> {
-        return {
-            ngModule: CoreModule,
-            providers: [
-                { provide: ServerConfig, useValue: config }
-            ]
-        };
-    }
+  static forRoot(config: ServerConfig): ModuleWithProviders<CoreModule> {
+    return {
+      ngModule: CoreModule,
+      providers: [
+        { provide: ServerConfig, useValue: config }
+      ]
+    };
+  }
 }

@@ -2,8 +2,8 @@ import { CoreComponents } from './core';
 import { GenericComponents } from './generic';
 
 export const Components = [
-    ...CoreComponents,
-    ...GenericComponents
+  ...CoreComponents,
+  ...GenericComponents
 ];
 
 export * from './core';

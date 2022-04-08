@@ -1,18 +1,18 @@
 import {
-    Injectable,
-    Optional
+  Injectable,
+  Optional
 } from '@angular/core';
 
 import {
-    AdUser,
-    User,
-    WebApi
+  AdUser,
+  User,
+  WebApi
 } from '../models';
 
 import {
-    QueryGeneratorService,
-    SnackerService,
-    SyncService
+  QueryGeneratorService,
+  SnackerService,
+  SyncService
 } from '../services';
 
 import { HttpClient } from '@angular/common/http';
@@ -20,100 +20,100 @@ import { BehaviorSubject } from 'rxjs';
 import { ServerConfig } from '../config';
 
 @Injectable({
-    providedIn: 'root'
+  providedIn: 'root'
 })
 export class IdentityApi {
-    api: WebApi;
+  api: WebApi;
 
-    constructor(
-        private generator: QueryGeneratorService,
-        private http: HttpClient,
-        private snacker: SnackerService,
-        private sync: SyncService,
-        @Optional() private config: ServerConfig
-    ) {
-        this.api = new WebApi(http, config, snacker, 'identity');
-    }
+  constructor(
+    private generator: QueryGeneratorService,
+    private http: HttpClient,
+    private snacker: SnackerService,
+    private sync: SyncService,
+    @Optional() private config: ServerConfig
+  ) {
+    this.api = new WebApi(http, config, snacker, 'identity');
+  }
 
-    //#region AdUser
+  //#region AdUser
 
-    private adUsers = new BehaviorSubject<AdUser[]>(null);
-    adUsers$ = this.adUsers.asObservable();
+  private adUsers = new BehaviorSubject<AdUser[]>(null);
+  adUsers$ = this.adUsers.asObservable();
 
-    getDomainUsers = () =>
-        this.api.assign(
-            'getAdUsers',
-            this.adUsers
-        );
+  getDomainUsers = () =>
+    this.api.assign(
+      'getAdUsers',
+      this.adUsers
+    );
 
-    searchDomainUsers = (search: string) =>
-        this.api.assign(
-            `searchDomainUsers/${search}`,
-            this.adUsers
-        );
+  searchDomainUsers = (search: string) =>
+    this.api.assign(
+      `searchDomainUsers/${search}`,
+      this.adUsers
+    );
 
-    private currentAdUser = new BehaviorSubject<AdUser>(null);
-    currentAdUser$ = this.currentAdUser.asObservable();
+  private currentAdUser = new BehaviorSubject<AdUser>(null);
+  currentAdUser$ = this.currentAdUser.asObservable();
 
-    getCurrentUser = () =>
-        this.api.assign(
-            'getCurrentUser',
-            this.currentAdUser
-        );
+  getCurrentUser = () =>
+    this.api.assign(
+      'getCurrentUser',
+      this.currentAdUser
+    );
 
-    //#endregion
+  //#endregion
 
-    //#region User
+  //#region User
 
-    queryUsers = () =>
-        this.generator.generateSource<User>(
-            `lastName`,
-            `user/queryUsers`
-        );
+  queryUsers = () =>
+    this.generator.generateSource<User>(
+      `lastName`,
+      `user/queryUsers`
+    );
 
-    private user = new BehaviorSubject<User>(null);
-    user$ = this.user.asObservable();
+  private user = new BehaviorSubject<User>(null);
+  user$ = this.user.asObservable();
 
-    getUser = (id: number) =>
-        this.api.assign(
-            `getUser/${id}`,
-            this.user
-        );
+  getUser = (id: number) =>
+    this.api.assign(
+      `getUser/${id}`,
+      this.user
+    );
 
-    getUserIdByGuid = () =>
-        this.api.retrieve<number>(
-            'getUserIdByGuid'
-        );
+  getUserIdByGuid = () =>
+    this.api.retrieve<number>(
+      'getUserIdByGuid'
+    );
 
-    private currentUser = new BehaviorSubject<User>(null);
-    currentUser$ = this.currentUser.asObservable();
+  private currentUser = new BehaviorSubject<User>(null);
+  currentUser$ = this.currentUser.asObservable();
 
-    syncUser = () =>
-        this.api.assign(
-            'syncUser',
-            this.currentUser
-        );
+  syncUser = () =>
+    this.api.assign(
+      'syncUser',
+      this.currentUser
+    );
 
-    addUser = (adUser: AdUser) =>
-        this.api.resolve(
-            `addUser`,
-            adUser,
-            () => this.snacker.sendSuccessMessage(`Account ${adUser.displayName} successfully created`)
-        );
+  addUser = (adUser: AdUser) =>
+    this.api.resolve(
+      `addUser`,
+      adUser,
+      () => this.snacker.sendSuccessMessage(`Account ${adUser.displayName} successfully created`)
+    );
 
-    updateUser = (user: User) =>
-        this.api.resolve(
-            `updateUser`,
-            user,
-            () => this.snacker.sendSuccessMessage(`Account ${user.displayName} successfully updated`)
-        );
+  updateUser = (user: User) =>
+    this.api.resolve(
+      `updateUser`,
+      user,
+      () => this.snacker.sendSuccessMessage(`Account ${user.displayName} successfully updated`)
+    );
 
-    removeUser = (user: User) =>
-        this.api.resolve(
-            `removeUser`,
-            user,
-            () => this.snacker.sendSuccessMessage(`Account ${user.displayName} successfully removed`)
-        )
+  removeUser = (user: User) =>
+    this.api.resolve(
+      `removeUser`,
+      user,
+      () => this.snacker.sendSuccessMessage(`Account ${user.displayName} successfully removed`)
+    )
 
-    //#endregion
+  //#endregion
 }
