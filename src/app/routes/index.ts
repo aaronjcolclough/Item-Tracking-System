@@ -1,7 +1,5 @@
-export const TrackerComponents = [
+import { TrackerComponents, TrackerRoutes } from './trackers';
 
-]
+export const RouteComponents = [...TrackerComponents];
 
-export const TrackerRoutes = [
-  {path: '/tracker:id', component: }
-]
+export const Routes = [...TrackerRoutes];

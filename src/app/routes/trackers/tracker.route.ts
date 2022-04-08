@@ -1,7 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { combineLatest, Subscription } from 'rxjs';
-import { TrackingService } from '../../../services';
+import { TrackingService } from '../../services';
 
 @Component({
   selector: 'tracker-route',
